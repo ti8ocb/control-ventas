@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 95%;
     margin: auto;
     overflow: hidden;
 }
@@ -19,7 +19,8 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    font-size: 11px
 }
 
 table, th, td {
@@ -27,7 +28,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px;
+    padding: 5px;
     text-align: left;
 }
 
@@ -44,11 +45,11 @@ tfoot td {
 }
 
 button {
-    margin: 5px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
+    margin: 1px;
+    padding: 3px 5px;
+    background-color: #7A7D7D;
+    color: #D1D1D1;
+    /*border: none;*/
     cursor: pointer;
 }
 
