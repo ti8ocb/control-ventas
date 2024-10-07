@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Ventas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Control de Ventas</h1>
+        <table id="ventasTable">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Ubicación</th>
+                    <th>Cantidad</th>
+                    <th>Equivalencia</th>
+                    <th>Nombre Corto</th>
+                    <th>Precio Costo</th>
+                    <th>Precio Total</th>
+                </tr>
+            </thead>
+            <tbody id="ventasBody">
+                <!-- Filas de artículos se agregarán aquí -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">TOTAL:</td>
+                    <td id="totalCosto">0</td>
+                    <td id="totalPrecio">0</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="buttons">
+            <button onclick="agregarArticulo()">Agregar Artículo</button>
+            <button onclick="modificarArticulo()">Modificar Artículo</button>
+            <button onclick="eliminarArticulo()">Eliminar Artículo</button>
+            <button onclick="refrescar()">Refrescar</button>
+            <button onclick="exportar()">Exportar</button>
+            <button onclick="salir()">Salir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
